@@ -1,0 +1,93 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(./img/fundo-escuro-abstrato-com-ondas-coloridas_1048-13124.avif);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    text-align: center;
+    color: aliceblue;
+    font-size: 16px;
+    font-weight: normal;
+       
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+h1 {
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    color: #8a8694;   
+}
+
+label {
+    color: aliceblue;
+    font-size: 16px;
+    
+}
+
+.logo {
+    position: fixed;
+    right: 12px;
+    bottom: 12px;
+    transition: transform 0.3s ease-in-out;
+    
+}
+.logo:hover {
+    transform: scale(1.1);
+}
+
+#selecionar, #name, #email,#senha {
+    width: 22%;
+    cursor: pointer;
+    border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;   
+}
+.selecionar2 {
+    display: flex;
+    gap: 10px;
+    
+    
+}
+#radio {
+    cursor: pointer;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+
+}
+.submit, .reset {
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+            border-radius: 10px;
+            padding: 10px;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+}
+.submit:hover, .reset:hover {
+    transition: color 1s;
+    color: aliceblue;
+    background-color: rgb(108, 71, 240);
+    cursor: pointer;
+    
+    
+}
